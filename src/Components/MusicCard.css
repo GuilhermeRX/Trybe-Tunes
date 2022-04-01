@@ -1,0 +1,106 @@
+.musicCard {
+  align-items: center;
+  border-radius: 4px;
+  display: flex;
+  height: 65px;
+  justify-content: space-between;
+  margin: 2px;
+  transition: 0.5s;
+  width: 100%;
+}
+
+.musicCard:hover {
+  background-color: #2e2a2a;
+  opacity: 0.8;
+}
+
+.musicCard-info {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 16px;
+}
+
+.div-artistAndName {
+  display: flex;
+  flex-direction: column;
+}
+
+.nameFav {
+  color: white;
+  line-height: 1.4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 300px;
+}
+
+.artist-name {
+  color: #9a9a9a;
+  font-size: 14px;
+  font-weight: 100;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 300px;
+}
+
+.index {
+  color: white;
+  margin-right: 16px;
+}
+
+.musicCard-audio-fav {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.inputFavorite {
+  display: none;
+}
+
+.favorite-yes {
+  color: #ff006e;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.favorite-no {
+  color: white;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.text-favorita {
+  display: none;
+}
+
+.labelFavorite {
+  margin-right: 16px;
+}
+
+.loadHidden {
+  display: none;
+}
+
+.div-icon-play-album {
+  align-items: center;
+  background-color: #28d66a;
+  border-radius: 50%;
+  box-shadow: 0 0 20px black;
+  cursor: pointer;
+  display: none;
+  height: 36px;
+  justify-content: center;
+  position: absolute;
+  right: 170px;
+  width: 36px;
+}
+
+.musicCard:hover .div-icon-play-album {
+  display: flex;
+}

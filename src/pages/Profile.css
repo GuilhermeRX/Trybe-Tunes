@@ -1,0 +1,119 @@
+.page-profile {
+  background: linear-gradient(180deg, #40111c 0%, #141414 40%);
+  background-color: #141414;
+  display: flex;
+  flex: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.profile-div {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  width: 100%;
+}
+
+.profile-container {
+  align-items: flex-end;
+  border-radius: 4px;
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 24px;
+  width: 100%;
+}
+
+.profile-container img {
+  border-radius: 50%;
+  width: 190px;
+}
+
+.div-img-link {
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin-left: 36px;
+}
+
+.div-info-profile {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  margin-left: 24px;
+  width: 100%;
+}
+
+.title-profile {
+  color: white;
+  display: inline-block;
+  font-family: Roboto , sans-serif;
+  font-size: 5em;
+  font-weight: 900;
+  margin-top: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 90%;
+}
+
+.profile-icon {
+  color: #888;
+  font-size: 190px;
+}
+
+
+.link-edit-profile {
+  align-items: center;
+  border: 1px solid rgba(245, 243, 243, 0.6);
+  border-radius: 4px;
+  color: white;
+  display: flex;
+  font-family: Verdana , Geneva , Tahoma , sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  justify-content: center;
+  margin-bottom: 16px;
+  padding: 6px 16px;
+  text-decoration: none;
+  width: max-content;
+}
+
+.title {
+  color: #3d495c;
+  font-family: Verdana , Geneva , Tahoma , sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  margin-top: 24px;
+}
+
+
+.load-profile {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.load-profile p {
+  color: white;
+}
+
+.profile-info-text {
+  color: white;
+  display: inline-block;
+  font-family: Roboto , sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 25px;
+}
+
+.editProfile-icon {
+  font-size: 24px;
+  margin-left: 8px;
+}

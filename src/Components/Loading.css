@@ -1,0 +1,27 @@
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text {
+  font-weight: 100;
+}
+
+.spinner {
+  animation: rotate 1s infinite;
+  border: 6px solid #e5e5e5;
+  border-radius: 50%;
+  border-top-color: #51d4db;
+  height: 30px;
+  margin-top: 8px;
+  width: 30px;
+}
+
+@keyframes rotate {
+
+  to {
+    transform: rotate(1turn);
+  }
+}

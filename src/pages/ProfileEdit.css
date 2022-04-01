@@ -1,0 +1,96 @@
+.page-profile-edit {
+  background-color: #141414;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.form {
+  align-items: center;
+  background-color: #ced4da;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  justify-content: center;
+  margin: auto;
+  padding: 24px;
+  width: max-content;
+}
+
+.edit-profile-icon {
+  font-size: 100px;
+  margin: auto;
+}
+
+.div-img-editProfile {
+  height: 100px;
+  margin: auto;
+  width: 100px;
+}
+
+.edit-img {
+  border-radius: 50%;
+  margin: auto;
+  width: 100px;
+}
+
+.page-profile-edit label {
+  color: #3d495c;
+  display: flex;
+  flex-direction: column;
+  font-family: Verdana , Geneva , Tahoma , sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  margin-top: 16px;
+}
+
+.place {
+  color: #3d495c;
+  font-family: Verdana , Geneva , Tahoma , sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 150%;
+  margin-bottom: 4px;
+}
+
+.page-profile-edit input {
+  background-color: #f0f2f5;
+  border: none;
+  border-bottom: 1px solid #3d495c;
+  padding: 8px;
+  width: 288px;
+}
+
+.page-profile-edit input:focus {
+  outline-color: #0f7ef1;
+}
+
+.page-profile-edit label:nth-child( 3 ) {
+  margin-top: 36px;
+}
+
+.textarea {
+  border: none;
+  border-bottom: 1px solid #3d495c;
+  height: 80px;
+  padding: 8px;
+  width: 288px;
+}
+
+.textarea:focus {
+  outline-color: #0f7ef1;
+}
+
+.btn-salvar-profile {
+  align-self: center;
+  background-color: #212529;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  margin-top: 36px;
+  padding: 4px 24px;
+}

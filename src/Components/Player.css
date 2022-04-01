@@ -1,0 +1,113 @@
+.Player-Container {
+  align-items: center;
+  background-color: #181818;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+}
+
+.controls-player {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-play {
+  align-items: center;
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  height: 36px;
+  justify-content: center;
+  margin: 8px 24px;
+  width: 36px;
+}
+
+.player-icon-play {
+  font-size: 28px;
+}
+
+.player-next-back {
+  color: #b3b3b3;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.container-inputs-player {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.div-duration {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container-vol {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  right: 24px;
+  top: 36px;
+}
+
+.input-range-duration {
+  margin: 0 8px;
+  width: 400px;
+}
+
+.icon-vol-hight {
+  color: #b3b3b3;
+  font-size: 24px;
+}
+
+.input-range-vol {
+  width: 80px;
+}
+
+.divInfoMusic-player {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  left: 16px;
+  position: absolute;
+}
+
+.container-info-player {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-player {
+  color: white;
+  font-family: Roboto , sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 14px;
+}
+
+.info-artistName-player {
+  color: #9a9a9a;
+  font-size: 12px;
+  margin-left: 14px;
+}
+
+.current {
+  color: #9a9a9a;
+  font-size: 14px;
+}
+
+.duration {
+  color: #9a9a9a;
+  font-size: 14px;
+}

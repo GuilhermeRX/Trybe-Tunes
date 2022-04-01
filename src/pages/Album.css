@@ -1,0 +1,101 @@
+.page-album {
+  background: linear-gradient(180deg, #904339 0%, #141414 40%);
+  background-color: #141414;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.album-container {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 80px;
+  width: 100%;
+}
+
+.card-album {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 36px;
+  padding-bottom: 76px;
+  width: 95%;
+}
+
+.card-info-div {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-end;
+  margin-left: 24px;
+  width: 100%;
+}
+
+.card-album img {
+  width: 190px;
+}
+
+.card-album .p1 {
+  color: white;
+  display: inline-block;
+  font-family: Verdana , Geneva , Tahoma , sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 650px;
+}
+
+.card-album .p2 {
+  color: white;
+  display: inline-block;
+  font-family: Epilogue , sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 25px;
+  width: 78%;
+}
+
+.card-album .p3 {
+  color: white;
+  display: inline-block;
+  font-family: Epilogue , sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 25px;
+}
+
+.card-album .p4 {
+  color: #9a9a9a;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.music {
+  border-top: 1px solid rgba(154, 154, 154, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: auto;
+  margin-bottom: 180px;
+  margin-top: 24px;
+  width: 90%;
+
+}
+
+.album-card-music {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.album-card-music:first-child {
+  padding-top: 24px;
+}
