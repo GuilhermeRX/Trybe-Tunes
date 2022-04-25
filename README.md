@@ -7,3 +7,5 @@ Neste projeto o objetivo foi desenvolver uma aplicação capaz de reproduzir mú
 Tecnologias utilizadas durante o desenvolvimento: React.Js, CSS3, Redux, JSX.
 
 Projeto foi aprovado com 100% dos requisitos cumpridos.
+
+Link da aplicação: https://mytrybetunes.netlify.app/
